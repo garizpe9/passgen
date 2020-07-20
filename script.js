@@ -49,13 +49,14 @@ else concatination = concatination + numarray
  //math random loop
 
 for (var i=0;i<characters; i++) {
-    if (characters <3||characters > 128|| character === "") {
-      characters = prompt ("Please enter a number between 3 and 128")}
-    else (characters < 128 || characters > 3)   
-      var num = Math.floor(Math.random() * concatination.length);
-      var passwordel = (concatination[num]);
-      passwordcomplete = passwordcomplete + passwordel;
-      console.log(passwordcomplete)
+  if (characters <3||characters > 128){
+    characters = prompt ("Please enter a number between 3 and 128")
+  }
+  else 
+    var num = Math.floor(Math.random() * concatination.length);
+    var passwordel = (concatination[num]);
+    passwordcomplete = passwordcomplete + passwordel;
+    console.log(passwordcomplete)
 }
 
 var passwordText = document.querySelectorAll("#password")
