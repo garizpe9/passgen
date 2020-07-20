@@ -13,7 +13,7 @@
 
  var characters = prompt("Enter number of characters");
  if (characters === ""  || characters > 128 || characters<3){
-     prompt ("Please enter a number between 3 and 128");
+     characters = prompt ("Please enter a number between 3 and 128");
 }
  
  //Character confirm
