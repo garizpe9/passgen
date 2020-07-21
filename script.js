@@ -61,20 +61,19 @@ generate.addEventListener("click", function() {
       console.log(passwordcomplete)
   }
 
-  var passwordText = document.querySelectorAll("#password")
+  // var passwordText = document.querySelectorAll("#password")
   password.textContent = passwordcomplete;
-
+})
 
 // // Assignment Code
 
 
-  passwordcomplete = [];
-  for (var i=0;i<characters; i++) {
-    var num = Math.floor(Math.random() * concatination.length);
-    var passwordel = (concatination[num]);
-    passwordcomplete = passwordcomplete + passwordel;
-    console.log(passwordcomplete)
-}
-password.textContent = passwordcomplete;
-});
-
+//   passwordcomplete = [];
+//   for (var i=0;i<characters; i++) {
+//     var num = Math.floor(Math.random() * concatination.length);
+//     var passwordel = (concatination[num]);
+//     passwordcomplete = passwordcomplete + passwordel;
+//     console.log(passwordcomplete)
+// }
+// password.textContent = passwordcomplete;
+// });
